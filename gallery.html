@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - Gulwarina Muska Saleem</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">GMS</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="skills.html">Personal Skills</a>
+                <a class="active" href="gallery.html">Image Gallery</a>
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container gallery-container">
+        <header class="page-header">
+            <p class="eyebrow">Selected Work</p>
+            <h1>My Projects</h1>
+            <p class="subtitle">A few of my past projects and builds.</p>
+        </header>
+
+        <section class="gallery">
+            <!-- Each gallery item is floated so multiple images can sit side by side. -->
+            <article class="gallery-item">
+                <img src="images/1.png" alt="Four-way traffic light circuit on a breadboard">
+                <div class="gallery-caption">
+                    <h2>Four-Way Traffic Light Circuit</h2>
+                    <p>A breadboard circuit using a 555 timer IC and a counter IC to cycle red, yellow, and green LEDs for a four-way traffic intersection.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="images/2.png" alt="Lost and Found system logo">
+                <div class="gallery-caption">
+                    <h2>Lost &amp; Found System</h2>
+                    <p>A project designed to help track and report lost and found items on campus.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="images/3.png" alt="Tower of Odyssey coding escape game menu">
+                <div class="gallery-caption">
+                    <h2>Tower of Odyssey - Code Escape Game</h2>
+                    <p>A terminal-based coding challenge game where players solve programming puzzles to escape the tower.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="images/4.png" alt="HopeLife Hospital patient health monitoring system homepage">
+                <div class="gallery-caption">
+                    <h2>Patient Health Monitoring System</h2>
+                    <p>A hospital web platform concept (HopeLife Hospital) for patients to access services like finding doctors, online reports, and organ transplant information.</p>
+                </div>
+            </article>
+
+            <article class="gallery-item">
+                <img src="images/5.png" alt="Photo Opt-Out and Management System slide">
+                <div class="gallery-caption">
+                    <h2>Photo Opt-Out &amp; Management System</h2>
+                    <p>An automated consent and image-governance pipeline for event photography, built using Google Forms, Sheets, and Apps Script for AIESEC in NUST.</p>
+                </div>
+            </article>
+
+            <!-- Clear is required so the section properly contains all floated gallery items. -->
+            <div class="clear-float"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Gulwarina Muska Saleem · NUST Web Engineering</p>
+    </footer>
+
+</body>
+</html>
