@@ -34,6 +34,4 @@ portfolio/
 - No JavaScript used
 - No CSS framework or API used
 
-## GitHub Pages
 
-After pushing the project to GitHub, enable **Settings → Pages** and select the repository branch containing `index.html` as the deployment source.
